@@ -59,7 +59,7 @@ int getLevel()
     SetConsoleTextAttribute(hConsole, 14); // Set text color to yellow (14)
     int level;
     cout << "\n\n\n\n\n\n";
-    cout << "           (1)EASY 3X3\n\n           (2)MEDIUM 6X6\n\n           (3)HARD 9X9\n\n\n";
+    cout << "           (1)EASY 4X4\n\n           (2)MEDIUM 6X6\n\n           (3)HARD 9X9\n\n\n";
     cout << "Choose Level:";cin >> level;
     switch (level)
     {
